@@ -30,18 +30,25 @@ body, html{
   margin-left: 50px;
 }
 
+.mb{
+  margin-bottom: 50px;
+}
+
+/*classi per assegnare altezze alle varie sezioni*/
+
 .first-section{
-  height: 15%;
+  height: 10%;
 }
 
 .second-section{
-  height: 40%;
+  height: 30%;
 }
 
 .third-section{
-  height: 40%;
-  margin-bottom: 10px;
+  height: 55%;
 }
+
+/*classi utility per colori sfondo*/
 
 .bg-blue{
   background-color: blue;
@@ -59,9 +66,7 @@ background-color: lightblue;
   background-color: purple;
 }
 
-.mb{
-  margin-bottom: 50px;
-}
+/*classi utility per assegnare altezze*/
 
 .h85{
   height: 85%;
@@ -79,6 +84,8 @@ background-color: lightblue;
   height: 20%;
 }
 
+/*classi utility per assegnare larghezze a colonne*/
+
 .wsmall{
   width: 20%;
 }
@@ -87,22 +94,26 @@ background-color: lightblue;
   width: 60%;
 }
 
-.col-third-section{
-float: left;
-margin-bottom: 10px;
-padding-right: 10px;
-}
-
 .col-100{
   width: 100%;
+}
+
+/*altro*/
+
+.col-third-section{
+float: left;
+}
+
+.col-third-section.top{
+  margin-bottom: 10px;
+}
+
+.col-third-section.first-bottom, .col-third-section.second-bottom {
+  padding-right: 10px;
 }
 
 .row:after{
   content: "";
   display: table;
   clear: both;
-}
-
-.padding0{
-  padding-right: 0;
 }
