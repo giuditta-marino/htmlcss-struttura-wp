@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #fff;
+  height: 100vh;
+}
+
+/*classi utility per background-color*/
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+/*classi utility per margini*/
+
+.mt-1{
+  margin-top: 15px;
+}
+
+.mlr{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.first-section{
+  height: 15%;
+}
+
+.second-section{
+  height: 40%;
+}
+
+.third-section{
+  height: 40%;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-lblue{
+background-color: lightblue;
+}
+
+.last-section{
+  height: 5%;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.mb{
+  margin-bottom: 50px;
+}
