@@ -25,6 +25,10 @@ body, html{
   margin-top: 15px;
 }
 
+.mt-2{
+  margin-top: 8px;
+}
+
 .mlr{
   margin-right: 50px;
   margin-left: 50px;
