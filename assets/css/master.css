@@ -6,17 +6,29 @@
 
 body, html{
   background-color: #fff;
-  height: 100vh;
 }
 
 /*classi utility per background-color*/
 
 .bg-pink{
-  background-color: pink;
+  background-color: #e579e6;
 }
 
 .bg-yellow{
-  background-color: yellow;
+  background-color: #e1d67a;
+}
+
+.bg-blue{
+  background-color: #0086ff;
+}
+
+.bg-lblue{
+background-color: #abcfe7;
+}
+
+
+.bg-purple{
+  background-color: #8801fe;
 }
 
 /*classi utility per margini*/
@@ -26,66 +38,57 @@ body, html{
 }
 
 .mt-2{
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .mlr{
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 .mb{
   margin-bottom: 50px;
 }
 
+.mb-2{
+  margin-bottom: 15px;
+}
+
 /*classi per assegnare altezze alle varie sezioni*/
 
 .first-section{
-  height: 10%;
+  height: 70px;
 }
 
 .second-section{
-  height: 30%;
+  height: 250px;
 }
 
 .third-section{
-  height: 55%;
-}
-
-/*classi utility per colori sfondo*/
-
-.bg-blue{
-  background-color: blue;
-}
-
-.bg-lblue{
-background-color: lightblue;
+  height: 300px;
 }
 
 .last-section{
-  height: 5%;
+  height: 35px;
 }
 
-.bg-purple{
-  background-color: purple;
+.third-section .row{
+  height: 300px;
 }
 
 /*classi utility per assegnare altezze*/
 
-.h85{
-  height: 85%;
+
+.h50{
+  height: 50px;
 }
 
-.h100{
-  height: 100%;
+.h250{
+  height: 250px;
 }
 
-.h80{
-  height: 80%;
-}
-
-.h20{
-  height: 20%;
+.h230{
+  height: 230px;
 }
 
 /*classi utility per assegnare larghezze a colonne*/
@@ -108,12 +111,12 @@ background-color: lightblue;
 float: left;
 }
 
-.col-third-section.top{
-  margin-bottom: 10px;
-}
-
 .col-third-section.first-bottom, .col-third-section.second-bottom {
   padding-right: 10px;
+}
+
+.col-third-section.first-bottom, .col-third-section.second-bottom, .col-third-section.third-bottom {
+  padding-top: 10px;
 }
 
 .row:after{
