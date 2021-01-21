@@ -40,6 +40,7 @@ body, html{
 
 .third-section{
   height: 40%;
+  margin-bottom: 10px;
 }
 
 .bg-blue{
@@ -60,4 +61,48 @@ background-color: lightblue;
 
 .mb{
   margin-bottom: 50px;
+}
+
+.h85{
+  height: 85%;
+}
+
+.h100{
+  height: 100%;
+}
+
+.h80{
+  height: 80%;
+}
+
+.h20{
+  height: 20%;
+}
+
+.wsmall{
+  width: 20%;
+}
+
+.wlarge{
+  width: 60%;
+}
+
+.col-third-section{
+float: left;
+margin-bottom: 10px;
+padding-right: 10px;
+}
+
+.col-100{
+  width: 100%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.padding0{
+  padding-right: 0;
 }
