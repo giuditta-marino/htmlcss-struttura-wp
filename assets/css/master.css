@@ -64,20 +64,11 @@ background-color: #abcfe7;
   height: 250px;
 }
 
-.third-section{
-  height: 300px;
-}
-
 .last-section{
   height: 35px;
 }
 
-.third-section .row{
-  height: 300px;
-}
-
 /*classi utility per assegnare altezze*/
-
 
 .h50{
   height: 50px;
